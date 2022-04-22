@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_bright">
+
+
+    <ImageView
+            android:id="@+id/imageViewHinhAnh"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/ic_launcher_background"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_toRightOf="@+id/imageViewHinhAnh"
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/imageViewHinhAnh"
+            android:layout_below="@+id/textViewName"
+            android:id="@+id/textViewsl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="soluong"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/imageViewHinhAnh"
+        android:background="#000000"
+        />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageViewHinhAnh"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        app:srcCompat="@drawable/ic_launcher_background" />-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/textViewid"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="id"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginLeft="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        />&ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/textViewName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="title"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/textViewsl"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="soluong"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        />-->
+<!--        -->
+<!--    </LinearLayout>-->
+</RelativeLayout>
