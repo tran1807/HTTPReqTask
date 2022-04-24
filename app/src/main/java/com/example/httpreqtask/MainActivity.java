@@ -8,28 +8,21 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.BaseAdapter;
 import android.widget.Button;
-import android.widget.TextView;
 
 import com.example.httpreqtask.adapter.ProductAdapter;
 import com.example.httpreqtask.models.Product;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.lang.reflect.Type;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.List;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-import static com.example.httpreqtask.util.config.*;
+import static com.example.httpreqtask.util.Config.*;
 
 public class MainActivity extends AppCompatActivity {
     Button btnClick;
